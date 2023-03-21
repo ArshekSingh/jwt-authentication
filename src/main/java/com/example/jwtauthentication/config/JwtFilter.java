@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.filter.GenericFilterBean;
 
 import java.io.IOException;
-
+//Filter is used for authorization (verify JWT token)
 public class JwtFilter extends GenericFilterBean {
 
     String secret = "5r6tfyg6tyguh";
